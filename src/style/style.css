@@ -78,44 +78,52 @@ main {
 }
 
 #section2 {
-    margin: 110px 0 25px 0;
+    padding-right: 10rem;
+    margin: 110px 0 50px 0;
 }
 
-#section-img1 {
-    width: 320px;
+#section2-display {
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    gap: 65px;
+}
+
+.section-img1 {
+    width: 400px;
     border: 1px solid rgba(122, 122, 122, 0.288);
     border-radius: 15px;
 }
 
-#section-span1 {
+.section-span1 {
     display: flex;
     align-items: center;
-    gap: 90px;
+    gap: 165px;
 }
 
-#section-span1 > span {
+.section-span1 > span {
     font-size: 1.5rem;
     padding-bottom: 10px;
     color: #ff0051;
 }
 
-#section2 > div > #section-img1 {
+#section2 > div > .section-img1 {
     margin-left: 10rem;
 }
 
-#section2 > div > #section-img1 > #section-span1 > h2 {
+#section2 > div > .section-img1 > .section-span1 > h2 {
     font-weight: 100;
     text-transform: uppercase;
-    font-size: 1.02rem;
+    font-size: 1rem;
     text-align: left;
     padding: 20px;
 }
 
-#section2 > div > #section-img1 > img {
-    width: 320px;
+.section-img1 > img {
+    width: 400px;
 }
 
-#section2 > div > #section-img1 > p {
+#section2 > div > .section-img1 > p {
     text-align: center;
     color: lightgray;
     font-size: 0.85rem;
