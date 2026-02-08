@@ -1,8 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: #090909;
-    padding: 0px;
-    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+header { 
+    background-color: #090909;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 17px;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
 }
 
 #logo {
@@ -12,12 +29,83 @@ body {
     color: #ff0051;
 }
 
-.container {
-    padding: 0 50px;
-    margin: 0 auto;
+header { 
+    background-color: #090909;
     display: flex;
-    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 17px;
+    justify-content: space-around;
     align-items: center;
+    z-index: 1000;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+#section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 380px;
+}
+
+#section1 > div > h1 {
+    font-size: 3.5rem;
+    max-width: 60%;
+    flex-grow: 1;
+    padding-bottom: 15px;
+}
+
+#section1 > div > p {
+    max-width: 600px;
+    color: lightgray;
+    font-size: 1.3rem;
+    padding-bottom: 30px;
+}
+
+#mao-robotica {
+    width: 575px;
+    padding-right: 25px;
+}
+
+#section2 {
+    margin: 110px 0 25px 0;
+}
+
+#section-img1 {
+    width: 320px;
+    border: 1px solid rgba(122, 122, 122, 0.288);
+    border-radius: 15px;
+}
+
+#section2 > div > #section-img1 {
+    margin-left: 10rem;
+}
+
+#section2 > div > #section-img1 > h2 {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 1.02rem;
+    text-align: left;
+    padding: 20px;
+}
+
+#section2 > div > #section-img1 > img {
+    width: 320px;
+}
+
+#section2 > div > #section-img1 > p {
+    text-align: center;
+    color: lightgray;
+    font-size: 0.85rem;
+    padding: 20px;
 }
 
 ul.nav-links {
@@ -45,7 +133,7 @@ nav > ul > li a:hover {
 .button-header {
     font-size: 15px;
     color: #ff0051;
-    padding: 11px 15px;
+    padding: 11px 25px;
     margin: 9px;
     border: 1px solid #ff0051;
     border-radius: 6px;
@@ -67,12 +155,32 @@ nav > ul > li a:hover {
     background-color: #090909;
 }
 
-#img-main {
-    margin: 7rem 0rem 0rem 13rem; 
-    border-radius: 13px;
-    width: 350px;
+#titulo-text {
+    margin-bottom: 5em;
+    width: 400px;
+    font-size: 17px;
+    color: rgb(182, 182, 182);
 }
 
+#actions-titulo {
+    position: relative;
+    bottom: 55px;
+}
 
+/* TIPOGRAFIA */
 
+h1 {
+    color: white;
+    font-size: 2.6rem;
+}
+
+h2 {
+    color: white;
+    font-size: 1.8rem;
+}
+
+p {
+    color: white;
+    font-size: 0.8rem;
+}
 
