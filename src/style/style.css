@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,7 +7,7 @@
 
 body {
     background-color: #090909;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Inter" ,Arial, Helvetica, sans-serif;
 }
 
 header { 
@@ -85,11 +87,23 @@ main {
     border-radius: 15px;
 }
 
+#section-span1 {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+#section-span1 > span {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    color: #ff0051;
+}
+
 #section2 > div > #section-img1 {
     margin-left: 10rem;
 }
 
-#section2 > div > #section-img1 > h2 {
+#section2 > div > #section-img1 > #section-span1 > h2 {
     font-weight: 100;
     text-transform: uppercase;
     font-size: 1.02rem;
@@ -170,17 +184,21 @@ nav > ul > li a:hover {
 /* TIPOGRAFIA */
 
 h1 {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     color: white;
     font-size: 2.6rem;
 }
 
 h2 {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     color: white;
     font-size: 1.8rem;
 }
 
 p {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     color: white;
     font-size: 0.8rem;
 }
+
 
