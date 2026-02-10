@@ -183,6 +183,55 @@ main {
     font-size: 1rem;
 }
 
+#section4 {
+    margin-top: 14rem;
+}
+
+#section4 > div > h3 {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+#section4-box {
+    padding: 45px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(119, 119, 119, 0.267);
+    border-radius: 25px;
+}
+
+#section4-conteudo {
+    width: 30%;
+    padding-right: 5.2rem;
+}
+
+#section4-conteudo > p {
+    font-size: 1rem;
+    padding: 0.7rem;
+    padding-top: 1rem;
+}
+
+#section4-box > div > img {
+    border-radius: 25px;
+    width: 60rem;
+}
+
+#paragrafo-maior {
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    font-weight: 200;
+    font-size: 2.2rem;
+}
+
+.section4-destaque-p {
+    color: #ff2d6f;
+}
+
 ul.nav-links {
     display: flex;
     gap: 5px;
@@ -244,13 +293,13 @@ nav > ul > li a:hover {
 
 /* TIPOGRAFIA */
 
-h1 {
+h1, h2 {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     color: white;
     font-size: 2.6rem;
 }
 
-h2 {
+h3, h4, h5 {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     color: white;
     font-size: 1.8rem;
@@ -258,7 +307,7 @@ h2 {
 
 p {
     font-family: "Inter", Arial, Helvetica, sans-serif;
-    color: white;
+    color: lightgray;
     font-size: 0.8rem;
 }
 
