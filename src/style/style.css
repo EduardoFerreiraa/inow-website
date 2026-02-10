@@ -91,6 +91,7 @@ main {
 
 .section-img1 {
     width: 400px;
+    height: 50%;
     border: 1px solid rgba(122, 122, 122, 0.288);
     border-radius: 15px;
 }
@@ -133,11 +134,11 @@ main {
     padding: 15px;
 }
 
-.section2-action {
+.section2-action1, .section2-action2, .section2-action3 {
     display: flex;
 }
 
-.section2-action > a {
+.section2-action1 > a, .section2-action2 > a, .section2-action3 > a {
     text-align: center;
     color: #ff0051;
     border: 1px solid #ff0051;
@@ -147,6 +148,13 @@ main {
     padding: 10px 15px;
     margin: 15px auto;
     border-radius: 5px;
+    transition: padding 0.3s ease-out, background-color 0.4s ease;
+}
+
+.section2-action1 > a:hover, .section2-action2 > a:hover, .section2-action3 > a:hover {
+    color: white;
+    background-color: #ff0051;
+    padding: 13px 18px;
 }
 
 ul.nav-links {
