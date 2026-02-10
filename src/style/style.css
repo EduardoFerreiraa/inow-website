@@ -46,9 +46,9 @@ header {
 }
 
 main {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 #section1 {
@@ -108,7 +108,10 @@ main {
 }
 
 #section2 > div > .section-img1 {
+    justify-content: center;
+    align-items: center;
     margin-left: 10rem;
+    transition: padding 0.2s ease;
 }
 
 #section2 > div > .section-img1 > .section-span1 > h2 {
@@ -127,7 +130,23 @@ main {
     text-align: center;
     color: lightgray;
     font-size: 0.85rem;
-    padding: 20px;
+    padding: 15px;
+}
+
+.section2-action {
+    display: flex;
+}
+
+.section2-action > a {
+    text-align: center;
+    color: #ff0051;
+    border: 1px solid #ff0051;
+    font-weight: 800;
+    text-decoration: none;
+    width: 50%;
+    padding: 10px 15px;
+    margin: 15px auto;
+    border-radius: 5px;
 }
 
 ul.nav-links {
