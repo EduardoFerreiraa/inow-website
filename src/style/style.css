@@ -158,8 +158,16 @@ main {
 
 #section3 {
     margin-top: 10rem;
-    width: 35%;
     padding: 3rem;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    gap: 110px;
+}
+
+#section3 > div > video {
+    border-radius: 10px;
+    max-width: 100%;
 }
 
 #section3 div > h2 {
