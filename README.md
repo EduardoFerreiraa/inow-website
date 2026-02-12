@@ -1,6 +1,6 @@
-# MEU PRIMEIRO PROJETO
+# MEU PRIMEIRO SITE - 1° PROJETO
 
-## O que eu estou criando?
+## O que eu estou criando:
 
 Neste meu primeiro projeto, eu esto criando um site onde eu possa praticar os conhecimentos que eu obtive dentro de um curso que estou realizando. Esse site que estou criando é mais voltado para o mundo da IAs, é uma central de ajuda de IA que te dá suporte no autoatendimento, é como se fosse uma plataforma.
 
