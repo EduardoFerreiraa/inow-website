@@ -20,6 +20,6 @@ Neste meu primeiro projeto, eu esto criando um site onde eu possa praticar os co
 
 ## Commits e Branchs do projeto
 
-Para commitar e criar branchs, eu estou utilizando o GIT e também o GIT dentro do VS CODE.
-O editor que estou usando atualmente é o VS CODE, 
+Para commitar e criar branchs, eu estou utilizando o GIT e também o GIT dentro do VS CODE. Estou aplicando os dois, 
+o editor que estou usando atualmente é o VS CODE. 
 
