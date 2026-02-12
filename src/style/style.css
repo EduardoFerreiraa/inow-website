@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,7 +7,7 @@
 
 body {
     background-color: #090909;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Inter" ,Arial, Helvetica, sans-serif;
 }
 
 header { 
@@ -44,9 +46,9 @@ header {
 }
 
 main {
-    width: 95%;
+    width: 88%;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 #section1 {
@@ -64,48 +66,226 @@ main {
 }
 
 #section1 > div > p {
-    max-width: 600px;
+    max-width: 60%;
     color: lightgray;
     font-size: 1.3rem;
     padding-bottom: 30px;
 }
 
 #mao-robotica {
-    width: 575px;
+    width: 35%;
     padding-right: 25px;
 }
 
 #section2 {
-    margin: 110px 0 25px 0;
+    padding-right: 10rem;
+    margin-top: 14rem;
 }
 
-#section-img1 {
-    width: 320px;
+#section2-display {
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    gap: 65px;
+}
+
+.section-img1 {
+    max-width: 100%;
     border: 1px solid rgba(122, 122, 122, 0.288);
     border-radius: 15px;
 }
 
-#section2 > div > #section-img1 {
-    margin-left: 10rem;
+.section-span1 {
+    display: flex;
+    width: 20rem;
+    align-items: center;
+    justify-content: space-around;
 }
 
-#section2 > div > #section-img1 > h2 {
+.section-span1 > span {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    color: #ff0051;
+}
+
+#section2 > div > .section-img1 {
+    justify-content: center;
+    align-items: center;
+    margin-left: 12rem;
+    transition: padding 0.2s ease;
+}
+
+#section2 > div > .section-img1 > .section-span1 > h2 {
     font-weight: 100;
     text-transform: uppercase;
-    font-size: 1.02rem;
+    font-size: 1rem;
     text-align: left;
     padding: 20px;
 }
 
-#section2 > div > #section-img1 > img {
-    width: 320px;
+.section-img1 > img {
+    max-width: 100%;
 }
 
-#section2 > div > #section-img1 > p {
+#section2 > div > .section-img1 > p {
     text-align: center;
     color: lightgray;
     font-size: 0.85rem;
-    padding: 20px;
+    padding: 15px;
+}
+
+.section2-action1, .section2-action2, .section2-action3 {
+    display: flex;
+}
+
+.section2-action1 > a, .section2-action2 > a, .section2-action3 > a {
+    text-align: center;
+    color: #ff0051;
+    border: 1px solid #ff0051;
+    font-weight: 800;
+    text-decoration: none;
+    width: 50%;
+    padding: 10px 15px;
+    margin: 15px auto;
+    border-radius: 5px;
+    transition: padding 0.3s ease-out, background-color 0.4s ease;
+}
+
+.section2-action1 > a:hover, .section2-action2 > a:hover, .section2-action3 > a:hover {
+    color: white;
+    background-color: #ff0051;
+}
+
+#section3 {
+    margin-top: 14rem;
+    padding: 3rem;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    gap: 110px;
+}
+
+#section3 > #section3-conteudo {
+    width: 85%;
+}
+
+#section3 > div > video {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+#section3 div > h2 {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #ff0051;
+}
+
+#section3 div > h3 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: white;
+    margin-bottom: 0.2rem;
+}
+
+#section3 div > p {
+    text-align: left;
+    padding-left: 5rem;
+    color: lightgray;
+    padding-top: 2.5rem;
+    font-size: 1rem;
+}
+
+#section4 {
+    max-width: 100%;
+    margin-top: 16rem;
+}
+
+#section4 > div > h3 {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+.section4-box {
+    max-width: 100%;
+    padding: 45px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(119, 119, 119, 0.267);
+    border-radius: 25px;
+    gap: 150px;
+}
+
+.section4-conteudo {
+    width: 100%;
+    padding-left: 3.5rem;
+}
+
+.paragrafo-maior {
+    width: 27rem;
+}
+
+.section4-conteudo > p {
+    font-size: 1rem;
+    padding: 0.7rem;
+    padding-top: 1.1rem;
+}
+
+.section4-conteudo > a {
+    width: 60%;
+    margin: left auto;
+    margin-left: 10px;
+    margin-top: 1.5rem;
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #ffaa00;
+    border: 1px solid #ffaa00;
+    border-radius: 5px;
+    transition: padding 0.3s ease-out, background-color 0.4s ease;
+}
+
+.section4-conteudo > a:hover {
+    color: white;
+    background-color: #ffaa00;
+}
+
+.section4-box > div > img {
+    border-radius: 25px;
+    max-width: 100%;
+}
+
+.paragrafo-maior {
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    font-weight: 200;
+    font-size: 2.2rem;
+}
+
+.section4-destaque-p {
+    color: #ffaa00;
+}
+
+#section4-destaque-p2 {
+    color: #0080ff;
+}
+
+#section4-destaque-p2 {
+    color: #0080ff;
+}
+
+#style-blue {
+    border: 1px solid #0080ff;
+    color: #0080ff;
+}
+
+#style-blue:hover {
+    color: white;
+    background-color: #0080ff;
 }
 
 ul.nav-links {
@@ -169,18 +349,22 @@ nav > ul > li a:hover {
 
 /* TIPOGRAFIA */
 
-h1 {
+h1, h2 {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     color: white;
     font-size: 2.6rem;
 }
 
-h2 {
+h3, h4, h5 {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     color: white;
     font-size: 1.8rem;
 }
 
 p {
-    color: white;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    color: lightgray;
     font-size: 0.8rem;
 }
+
 
