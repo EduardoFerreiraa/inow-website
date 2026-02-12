@@ -66,20 +66,20 @@ main {
 }
 
 #section1 > div > p {
-    max-width: 600px;
+    max-width: 60%;
     color: lightgray;
     font-size: 1.3rem;
     padding-bottom: 30px;
 }
 
 #mao-robotica {
-    width: 575px;
+    width: 35%;
     padding-right: 25px;
 }
 
 #section2 {
     padding-right: 10rem;
-    margin: 110px 0 50px 0;
+    margin-top: 14rem;
 }
 
 #section2-display {
@@ -90,16 +90,16 @@ main {
 }
 
 .section-img1 {
-    width: 400px;
-    height: 50%;
+    max-width: 100%;
     border: 1px solid rgba(122, 122, 122, 0.288);
     border-radius: 15px;
 }
 
 .section-span1 {
     display: flex;
+    width: 20rem;
     align-items: center;
-    gap: 165px;
+    justify-content: space-around;
 }
 
 .section-span1 > span {
@@ -111,7 +111,7 @@ main {
 #section2 > div > .section-img1 {
     justify-content: center;
     align-items: center;
-    margin-left: 10rem;
+    margin-left: 12rem;
     transition: padding 0.2s ease;
 }
 
@@ -124,7 +124,7 @@ main {
 }
 
 .section-img1 > img {
-    width: 400px;
+    max-width: 100%;
 }
 
 #section2 > div > .section-img1 > p {
@@ -157,7 +157,7 @@ main {
 }
 
 #section3 {
-    margin-top: 10rem;
+    margin-top: 14rem;
     padding: 3rem;
     display: flex;
     justify-items: center;
@@ -192,7 +192,8 @@ main {
 }
 
 #section4 {
-    margin-top: 14rem;
+    max-width: 100%;
+    margin-top: 16rem;
 }
 
 #section4 > div > h3 {
@@ -202,7 +203,8 @@ main {
     text-align: center;
 }
 
-#section4-box {
+.section4-box {
+    max-width: 100%;
     padding: 45px;
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -211,45 +213,49 @@ main {
     align-items: center;
     border: 1px solid rgba(119, 119, 119, 0.267);
     border-radius: 25px;
+    gap: 150px;
 }
 
-#section4-conteudo {
-    width: 70%;
-    padding-right: 5.2rem;
+.section4-conteudo {
+    width: 100%;
+    padding-left: 3.5rem;
 }
 
-#section4-conteudo > p {
+.paragrafo-maior {
+    width: 27rem;
+}
+
+.section4-conteudo > p {
     font-size: 1rem;
     padding: 0.7rem;
     padding-top: 1.1rem;
 }
 
-#section4-conteudo > a {
-    width: 40%;
+.section4-conteudo > a {
+    width: 60%;
     margin: left auto;
     margin-left: 10px;
     margin-top: 1.5rem;
     display: block;
     text-decoration: none;
     padding: 10px 15px;
-    color: #ff0051;
-    border: 1px solid #ff0051;
+    color: #ffaa00;
+    border: 1px solid #ffaa00;
     border-radius: 5px;
     transition: padding 0.3s ease-out, background-color 0.4s ease;
 }
 
-#section4-conteudo > a:hover {
-
+.section4-conteudo > a:hover {
     color: white;
-    background-color: #ff0051;
+    background-color: #ffaa00;
 }
 
-#section4-box > div > img {
+.section4-box > div > img {
     border-radius: 25px;
-    width: 60rem;
+    max-width: 100%;
 }
 
-#paragrafo-maior {
+.paragrafo-maior {
     margin-bottom: 1rem;
     padding: 0.7rem;
     font-weight: 200;
@@ -257,7 +263,25 @@ main {
 }
 
 .section4-destaque-p {
-    color: #ff2d6f;
+    color: #ffaa00;
+}
+
+#section4-destaque-p2 {
+    color: #0080ff;
+}
+
+#section4-destaque-p2 {
+    color: #0080ff;
+}
+
+#style-blue {
+    border: 1px solid #0080ff;
+    color: #0080ff;
+}
+
+#style-blue:hover {
+    color: white;
+    background-color: #0080ff;
 }
 
 ul.nav-links {
