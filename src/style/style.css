@@ -165,6 +165,10 @@ main {
     gap: 110px;
 }
 
+#section3 > #section3-conteudo {
+    width: 85%;
+}
+
 #section3 > div > video {
     border-radius: 10px;
     max-width: 100%;
