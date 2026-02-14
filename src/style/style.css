@@ -300,16 +300,15 @@ main {
 }
 
 #container-grid {
-    max-width: 70%;
+    max-width: 90%;
     margin: 100px auto;
     color: white;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 20px;
+    gap: 25px;
 }
 
 #container-grid > .item {
-    color: white;
     aspect-ratio: 1 / 1;
 }
 
@@ -339,8 +338,24 @@ main {
     grid-column: span 4;
 }
 
-#container-grid  > .item3 {
-    border: 1px solid blue;
+#container-grid  > .item-destaque2 {
+    padding: 15px;
+    background-color: #03FF88;
+    border-radius: 15px;
+}
+
+#container-grid  > .item-destaque3 {
+    padding: 15px;
+    background-color: #ff0051;
+    border-radius: 15px;
+}
+
+.item-destaque2 > p {
+    color: black;
+}
+
+.item-destaque3 > p {
+    color: white;
 }
 
 
