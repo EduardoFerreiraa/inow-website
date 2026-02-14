@@ -288,6 +288,77 @@ main {
     background-color: #0080ff;
 }
 
+#section5 {
+    margin-top: 16rem;
+}
+
+#section5 > h3 {
+    margin: 0 auto;
+    width: 60%;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#container-grid {
+    max-width: 90%;
+    margin: 100px auto;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 25px;
+}
+
+#container-grid > .item {
+    aspect-ratio: 1 / 1;
+}
+
+#container-grid > .item > img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+/* Selecionando os elementos pela posição */
+
+.item:nth-child(1),
+.item:nth-child(2),
+.item:nth-child(3) {
+    grid-column: span 4;
+}
+
+.item:nth-child(4),
+.item:nth-child(5),
+.item:nth-child(6),
+.item:nth-child(7) {
+    grid-column: span 3;
+}
+
+.item:nth-child(8),
+.item:nth-child(9),
+.item:nth-child(10) {
+    grid-column: span 4;
+}
+
+#container-grid  > .item-destaque2 {
+    padding: 15px;
+    background-color: #03FF88;
+    border-radius: 15px;
+}
+
+#container-grid  > .item-destaque3 {
+    padding: 15px;
+    background-color: #ff0051;
+    border-radius: 15px;
+}
+
+.item-destaque2 > p {
+    color: black;
+}
+
+.item-destaque3 > p {
+    color: white;
+}
+
+
 ul.nav-links {
     display: flex;
     gap: 5px;
