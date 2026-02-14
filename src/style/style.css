@@ -288,6 +288,62 @@ main {
     background-color: #0080ff;
 }
 
+#section5 {
+    margin-top: 16rem;
+}
+
+#section5 > h3 {
+    margin: 0 auto;
+    width: 60%;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#container-grid {
+    max-width: 70%;
+    margin: 100px auto;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+#container-grid > .item {
+    color: white;
+    aspect-ratio: 1 / 1;
+}
+
+#container-grid > .item > img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+/* Selecionando os elementos pela posição */
+
+.item:nth-child(1),
+.item:nth-child(2),
+.item:nth-child(3) {
+    grid-column: span 4;
+}
+
+.item:nth-child(4),
+.item:nth-child(5),
+.item:nth-child(6),
+.item:nth-child(7) {
+    grid-column: span 3;
+}
+
+.item:nth-child(8),
+.item:nth-child(9),
+.item:nth-child(10) {
+    grid-column: span 4;
+}
+
+#container-grid  > .item3 {
+    border: 1px solid blue;
+}
+
+
 ul.nav-links {
     display: flex;
     gap: 5px;
