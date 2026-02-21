@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ephesis&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -370,7 +372,7 @@ main {
 
 #section6-estatisticas {
     padding: 50px;
-    width: 45%;
+    width: 55%;
 }
 
 #section6-estatisticas > div {
@@ -379,7 +381,7 @@ main {
     width: 100%;
     font-size: 0.8rem;
     text-align: left;
-    margin: 15px 10px;
+    margin: 17px 10px;
     background-color: rgb(26, 26, 26);
     border-radius: 5px;
     display: flex;
@@ -429,6 +431,96 @@ main {
     padding: 15px 15px;
 }
 
+#section7-container {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 135px;
+    margin-bottom: 13rem;
+    background-color: #1A1A1A;
+    border-radius: 15px;
+}
+
+#section7-conteudo > h4 {
+    width: 35%;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#section7-conteudo > p {
+    width: 35%;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+#section7-container > #section7-conteudo2 {
+    width: 35%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#section7-conteudo2 > #section7-preco {
+    height: 87%;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#section7-preco > div > p {
+    color: black;
+    font-size: 1rem;
+}
+
+#section7-preco > div > #sec7-preco-destaque {
+    font-family: "Bebas Neue", "Inter", Arial, Helvetica, sans-serif;
+    font-size: 12rem;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+#section7-preco > div > a {
+    border: 2px solid black;
+    text-decoration: none;
+    background-color: black;
+    color: #03FF88;
+    border-radius: 10px;
+    padding: 10px 100px;
+    font-size: 1rem;
+    transition: background 0.4s ease, border 0.4s ease, color 0.4s ease;
+}
+
+#section7-preco > div > a:hover {
+    border: 2px solid black;
+    background-color: #03FF88;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 100px;
+    font-size: 1rem;
+}
+
+#section7-preco > div > p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+div#sec7-assine {
+    padding: 20px;
+    position: absolute;
+    top: 80%;
+}
+
+div#sec7-plano12meses > p {
+    padding-left: 25px;
+    width: 80%;
+    text-align: left;
+}
 
 ul.nav-links {
     display: flex;
