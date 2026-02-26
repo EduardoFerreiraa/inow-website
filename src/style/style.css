@@ -590,6 +590,40 @@ div#sec7-plano12meses > p {
     color: white;
 }
 
+#footer-container {
+    margin: 0 auto;
+    width: 80%;
+    padding: 50px;
+}
+
+#direitos-reservados {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid rgb(39, 39, 39);
+    padding-bottom: 25px;
+}
+
+#direitos-reservados > h5 {
+    font-size: 1.7rem;
+}
+
+#direitos-reservados > p {
+    font-size: 0.9rem;
+}
+
+#redes-sociais {
+    padding-top: 25px;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#redes-sociais > p {
+    font-size: 0.8rem;
+}
+
 ul.nav-links {
     display: flex;
     gap: 5px;
