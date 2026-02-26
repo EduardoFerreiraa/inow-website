@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ephesis&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 * {
     padding: 0;
     margin: 0;
 }
 
 body {
-    background-color: #090909;
+    background-color: #070707;
     font-family: "Inter" ,Arial, Helvetica, sans-serif;
 }
 
@@ -46,7 +48,7 @@ header {
 }
 
 main {
-    width: 88%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 90px;
 }
@@ -286,6 +288,306 @@ main {
 #style-blue:hover {
     color: white;
     background-color: #0080ff;
+}
+
+#section5 {
+    margin-top: 16rem;
+}
+
+#section5 > h3 {
+    margin: 0 auto;
+    width: 60%;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#container-grid {
+    max-width: 60%;
+    margin: 100px auto;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+#container-grid > .item > img {
+    border-radius: 15px;
+    width: 100%;
+    border: 1px solid rgba(119, 119, 119, 0.267);
+}
+
+#container-grid  > .item-destaque2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    padding: 20px;
+    background-color: #38ffb3;
+    border-radius: 15px;
+}
+
+#container-grid  > .item-destaque3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 20px;
+    background-color: #ff0051;
+    border-radius: 15px;
+}
+
+.item-destaque2 > p {
+    text-align: left;
+    color: black;
+}
+
+.item-destaque3 > p {
+    color: white;
+}
+
+#section6-container {
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 16rem;
+    margin-right: 50px;
+    margin-bottom: 16rem;
+}
+
+#section6-titulo {
+    padding: 60px;
+    width: 40%;
+}
+
+#section6-titulo > h4 {
+    width: 60%;
+    margin-bottom: 25px;
+    font-size: 2.4rem;
+}
+
+#section6-titulo > p {
+    width: 53%;
+    margin-bottom: 25px;
+    font-size: 1rem;
+}
+
+#section6-estatisticas {
+    padding: 50px;
+    width: 55%;
+}
+
+#section6-estatisticas > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 0.8rem;
+    text-align: left;
+    margin: 17px 10px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 5px;
+    display: flex;
+    justify-items: center;
+}
+
+#sec6-item1 {
+    color: black;
+    border-radius: 5px;
+    padding: 13px 30px;
+    width: 76%;
+    background-color: #03FF88;
+}
+
+#sec6-item2 {
+    width: 57%;
+    text-align: left;
+}
+
+#sec6-item3 {
+    width: 46%;
+}
+
+#sec6-item4 {
+    width: 34%;
+}
+
+#sec6-item5 {
+    width: 17%;
+}
+
+.background {
+    color: white;
+    border-radius: 5px;
+    padding: 13px 30px;
+    width: 40%;
+    background-color: rgb(65, 65, 65);
+}
+
+.porcentagem-destaque {
+    color: #03FF88;
+    padding: 15px 15px;
+}
+
+.porcentagem {
+    color: white;
+    padding: 15px 15px;
+}
+
+#section7-container {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 135px;
+    margin-bottom: 13rem;
+    background-color: #1A1A1A;
+    border-radius: 15px;
+}
+
+#section7-conteudo > h4 {
+    width: 35%;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#section7-conteudo > p {
+    width: 35%;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+#section7-container > #section7-conteudo2 {
+    width: 35%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#section7-conteudo2 > #section7-preco {
+    height: 87%;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#section7-preco > div > p {
+    color: black;
+    font-size: 1rem;
+}
+
+#section7-preco > div > #sec7-preco-destaque {
+    font-family: "Bebas Neue", "Inter", Arial, Helvetica, sans-serif;
+    font-size: 12rem;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+#section7-preco > div > a {
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 10px 100px;
+    font-size: 1rem;
+    transition: background 0.4s ease, border 0.4s ease, color 0.4s ease;
+}
+
+#section7-preco > div > a:hover {
+    border: 2px solid black;
+    background-color: #FF0051;
+    color: black;
+    padding: 10px 100px;
+    font-size: 1rem;
+}
+
+#section7-preco > div > p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+div#sec7-assine {
+    padding: 20px;
+    position: absolute;
+    top: 80%;
+}
+
+div#sec7-plano12meses > p {
+    padding-left: 25px;
+    width: 80%;
+    text-align: left;
+}
+
+#section8-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 100%;
+    min-height: 1150px;
+    background: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.6)), url("../img/abstract-plexus-blue-geometrical-shapes-connection-ai-generated-image.jpg") center  no-repeat;
+    background-size: cover;
+    margin-bottom: 14rem;
+}
+
+#section8-atendimento {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    padding: 100px;
+}
+
+#section8-atendimento > h4 {
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    width: 80%;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 2.8rem;
+}
+
+#section8-atendimento > p {
+    padding-top: 10px;
+    width: 50%;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+#section8-atendimento > #section8-links {
+    margin-top: 38px;
+}
+
+#section8-atendimento > div > a {
+    margin: 12px;
+    padding: 12px 50px;
+    color: white;
+    text-decoration: none;
+}  
+
+#section8-ver-demonstracao {
+    border: 1.5px solid white;
+    transition: border 0.3s ease;
+}
+
+#section8-ver-demonstracao:hover {
+    border: 1.5px solid #FF0051;
+}
+
+#section8-destaque-link {
+    border: 1.5px solid #FF0051;
+    background-color: #FF0051;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#section8-destaque-link:hover {
+    background-color: #ff005100;
+    color: white;
 }
 
 ul.nav-links {
