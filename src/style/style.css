@@ -13,7 +13,7 @@ body {
 }
 
 header { 
-    background-color: #090909;
+    background-color: #070707;
     display: flex;
     position: fixed;
     top: 0;
@@ -33,18 +33,72 @@ header {
     color: #ff0051;
 }
 
-header { 
-    background-color: #090909;
+ul.nav-links {
     display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    margin: 0 auto;
-    padding: 17px;
-    justify-content: space-around;
-    align-items: center;
-    z-index: 1000;
+    gap: 5px;
+}
+
+nav > ul > li {
+    padding: 10px;
+    list-style: none;
+}
+
+nav > ul > li a {
+    font-size: 15px;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.1s ease-out;
+}
+
+nav > ul > li a:hover {
+    color: #ff0051;
+}
+
+.button-header {
+    font-size: 15px;
+    color: #ff0051;
+    padding: 11px 25px;
+    margin: 9px;
+    border: 1px solid #ff0051;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: color 0.1s ease-in-out;
+}
+
+.button-header:hover {
+    color: white;
+}
+
+.destaque {
+    background: #ff0051;
+    color: white;
+    transition: background 0.1s ease-out;
+}
+
+.destaque:hover {
+    background-color: #090909;
+}
+/* Celulares */
+@media (max-width: 600px) {
+    header {
+        height: 125px;
+        flex-direction: column;
+    }
+
+    nav > ul > li {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav > ul > li a {
+        font-size: 15px;
+        padding: 12px 20px;
+    }
+
+    .button-header {
+        font-size: 13px;
+    }
 }
 
 main {
@@ -588,53 +642,6 @@ div#sec7-plano12meses > p {
 #section8-destaque-link:hover {
     background-color: #ff005100;
     color: white;
-}
-
-ul.nav-links {
-    display: flex;
-    gap: 5px;
-}
-
-nav > ul > li {
-    padding: 10px;
-    list-style: none;
-}
-
-nav > ul > li a {
-    font-size: 15px;
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    transition: color 0.1s ease-out;
-}
-
-nav > ul > li a:hover {
-    color: #ff0051;
-}
-
-.button-header {
-    font-size: 15px;
-    color: #ff0051;
-    padding: 11px 25px;
-    margin: 9px;
-    border: 1px solid #ff0051;
-    border-radius: 6px;
-    text-decoration: none;
-    transition: color 0.1s ease-in-out;
-}
-
-.button-header:hover {
-    color: white;
-}
-
-.destaque {
-    background: #ff0051;
-    color: white;
-    transition: background 0.1s ease-out;
-}
-
-.destaque:hover {
-    background-color: #090909;
 }
 
 #titulo-text {
