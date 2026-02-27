@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ephesis&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 * {
@@ -78,27 +77,6 @@ nav > ul > li a:hover {
 
 .destaque:hover {
     background-color: #090909;
-}
-/* Celulares */
-@media (max-width: 600px) {
-    header {
-        height: 125px;
-        flex-direction: column;
-    }
-
-    nav > ul > li {
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-
-    nav > ul > li a {
-        font-size: 15px;
-        padding: 12px 20px;
-    }
-
-    .button-header {
-        font-size: 13px;
-    }
 }
 
 main {
@@ -654,6 +632,90 @@ div#sec7-plano12meses > p {
 #actions-titulo {
     position: relative;
     bottom: 55px;
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+
+    /* HEADER */
+    header {
+        height: 125px;
+        flex-direction: column;
+    }
+
+    nav > ul > li {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav > ul > li a {
+        font-size: 15px;
+        padding: 12px 20px;
+    }
+
+    .button-header {
+        font-size: 13px;
+    }
+
+    /* MAIN */
+
+    main {
+        margin-top: 150px;
+    }
+
+    #section1 {
+        display: flex;
+        flex-direction: column;
+        gap: 170px;
+    }
+
+    #mao-robotica {
+        margin-top: 50px;
+        width: 100%;
+        padding-left: 50px;
+    }
+
+    #section1 > div > h1 {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 2.2rem;
+        max-width: 100%;
+    }
+
+    #section1 > div > p {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 80%;
+        color: lightgray;
+        font-size: 1rem;
+        padding-bottom: 30px;
+        padding-top: 15px;
+    }
+
+    #section1 > div > #button-section1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-header2 {
+        font-size: 15px;
+        color: white;
+        padding: 11px 25px;
+        margin: 10px;
+        border: 1px solid #FF0051;
+        border-radius: 6px;
+        text-decoration: none;
+        transition: color 0.1s ease-in-out;
+    }
+
+    .button-header2:hover {
+        color: #FF0051;
+    }
+
+    .destaque {
+        transition: background 0.1s ease-out;
+    }
+
 }
 
 /* TIPOGRAFIA */
