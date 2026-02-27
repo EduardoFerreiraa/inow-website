@@ -145,7 +145,6 @@ main {
 #section2 > div > .section-img1 {
     justify-content: center;
     align-items: center;
-    margin-left: 12rem;
     transition: padding 0.2s ease;
 }
 
@@ -715,6 +714,22 @@ div#sec7-plano12meses > p {
     .destaque {
         transition: background 0.1s ease-out;
     }
+
+    #section2 {
+        margin-top: 17rem;
+    }
+
+    #section2-display {
+        width: 100%;
+        margin-left: 95px;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    #section2 > div > .section-img1 > .section-span1 > h2 {
+        font-weight: 400;
+        padding: 20px 0 20px 0;
+    }   
 
 }
 
