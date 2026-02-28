@@ -738,20 +738,19 @@ div#sec7-plano12meses > p {
     }
 
     #section2 {
-        margin-top: 17rem;
+        margin: 0 auto;
+        margin-top: 14rem;
     }
 
     #section2-display {
-        width: 100%;
-        margin-left: 95px;
+        min-width: 335px;
         flex-direction: column;
         gap: 100px;
     }
 
-    #section2 > div > .section-img1 > .section-span1 > h2 {
-        font-weight: 400;
-        padding: 20px 0 20px 0;
-    }   
+    .section2-action1 > a, .section2-action2 > a, .section2-action3 > a {
+        border-radius: 0;
+    }
 
 }
 
