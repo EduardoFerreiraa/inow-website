@@ -672,32 +672,31 @@ div#sec7-plano12meses > p {
     /* MAIN */
 
     main {
-        margin-top: 150px;
+        margin-top: 100px;
+    }
+
+    #mao-robotica {
+        width: 100%;
+        padding-left: 50px;
     }
 
     #section1 {
         display: flex;
         flex-direction: column;
-        gap: 170px;
-    }
-
-    #mao-robotica {
-        margin-top: 50px;
-        width: 100%;
-        padding-left: 50px;
+        gap: 120px;
     }
 
     #section1 > div > h1 {
         margin: 0 auto;
         text-align: center;
-        font-size: 2.2rem;
+        font-size: 2rem;
         max-width: 100%;
     }
 
     #section1 > div > p {
         margin: 0 auto;
         text-align: center;
-        max-width: 80%;
+        max-width: 85%;
         color: lightgray;
         font-size: 1rem;
         padding-bottom: 30px;
@@ -710,22 +709,32 @@ div#sec7-plano12meses > p {
     }
 
     .button-header2 {
-        font-size: 15px;
+        font-size: 11.5px;
         color: white;
-        padding: 11px 25px;
+        padding: 11px 15px;
         margin: 10px;
-        border: 1px solid #FF0051;
-        border-radius: 6px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 0;
         text-decoration: none;
-        transition: color 0.1s ease-in-out;
+        transition: color 0.3s ease-in-out, border 0.3s ease;
     }
 
     .button-header2:hover {
         color: #FF0051;
+        border: 1px solid #FF0051;
     }
 
-    .destaque {
-        transition: background 0.1s ease-out;
+    .destaque2 {
+        background-color: #FF0051;
+        color: white;
+        border: 1px solid #FF0051;
+        transition: background 0.3s ease, border 0.3s ease;
+    }
+
+    .destaque2:hover {
+        color: black;
+        border: 1px solid white;
+        background-color: white;
     }
 
     #section2 {
