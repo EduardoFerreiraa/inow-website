@@ -738,20 +738,62 @@ div#sec7-plano12meses > p {
     }
 
     #section2 {
-        margin-top: 17rem;
+        margin: 0 auto;
+        margin-top: 14rem;
     }
 
     #section2-display {
-        width: 100%;
-        margin-left: 95px;
+        min-width: 350px;
         flex-direction: column;
         gap: 100px;
     }
 
-    #section2 > div > .section-img1 > .section-span1 > h2 {
-        font-weight: 400;
-        padding: 20px 0 20px 0;
-    }   
+    .section2-action1 > a, .section2-action2 > a, .section2-action3 > a {
+        border-radius: 0;
+    }
+
+    #section3 {
+        margin: 250px auto;
+        width: 75%;
+        padding: 3rem;
+        flex-direction: column;
+    }
+
+    #section3 > #section3-conteudo {
+        margin: 0 auto;
+    }
+
+    #section3 > #section3-video {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #section3 > div > video {
+        border-radius: 10px;
+    }
+
+    #section3 div > h2 {
+        font-size: 1.1rem;
+        padding-bottom: 5px;
+    }
+
+    #section3 div > h3 {
+        text-align: center;
+        font-size: 2.9rem;
+        color: white;
+        margin-bottom: 0.2rem;
+    }
+
+    #section3 div > p {
+        margin: 25px auto;
+        width: 100%;
+        text-align: left;
+        color: lightgray;
+        padding-top: 2.5rem;
+        font-size: 1rem;
+        padding-right: 0;
+        padding-left: 0;
+    }
 
 }
 
