@@ -719,32 +719,31 @@ nav > ul > li a:hover {
     /* MAIN */
 
     main {
-        margin-top: 150px;
+        margin-top: 100px;
+    }
+
+    #mao-robotica {
+        width: 100%;
+        padding-left: 50px;
     }
 
     #section1 {
         display: flex;
         flex-direction: column;
-        gap: 170px;
-    }
-
-    #mao-robotica {
-        margin-top: 50px;
-        width: 100%;
-        padding-left: 50px;
+        gap: 120px;
     }
 
     #section1 > div > h1 {
         margin: 0 auto;
         text-align: center;
-        font-size: 2.2rem;
+        font-size: 2rem;
         max-width: 100%;
     }
 
     #section1 > div > p {
         margin: 0 auto;
         text-align: center;
-        max-width: 80%;
+        max-width: 85%;
         color: lightgray;
         font-size: 1rem;
         padding-bottom: 30px;
@@ -757,39 +756,91 @@ nav > ul > li a:hover {
     }
 
     .button-header2 {
-        font-size: 15px;
+        font-size: 11.5px;
         color: white;
-        padding: 11px 25px;
+        padding: 11px 15px;
         margin: 10px;
-        border: 1px solid #FF0051;
-        border-radius: 6px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 0;
         text-decoration: none;
-        transition: color 0.1s ease-in-out;
+        transition: color 0.3s ease-in-out, border 0.3s ease;
     }
 
     .button-header2:hover {
         color: #FF0051;
+        border: 1px solid #FF0051;
     }
 
-    .destaque {
-        transition: background 0.1s ease-out;
+    .destaque2 {
+        background-color: #FF0051;
+        color: white;
+        border: 1px solid #FF0051;
+        transition: background 0.3s ease, border 0.3s ease;
+    }
+
+    .destaque2:hover {
+        color: black;
+        border: 1px solid white;
+        background-color: white;
     }
 
     #section2 {
-        margin-top: 17rem;
+        margin: 0 auto;
+        margin-top: 14rem;
     }
 
     #section2-display {
-        width: 100%;
-        margin-left: 95px;
+        min-width: 350px;
         flex-direction: column;
         gap: 100px;
     }
 
-    #section2 > div > .section-img1 > .section-span1 > h2 {
-        font-weight: 400;
-        padding: 20px 0 20px 0;
-    }   
+    .section2-action1 > a, .section2-action2 > a, .section2-action3 > a {
+        border-radius: 0;
+    }
+
+    #section3 {
+        margin: 250px auto;
+        width: 75%;
+        padding: 3rem;
+        flex-direction: column;
+    }
+
+    #section3 > #section3-conteudo {
+        margin: 0 auto;
+    }
+
+    #section3 > #section3-video {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #section3 > div > video {
+        border-radius: 10px;
+    }
+
+    #section3 div > h2 {
+        font-size: 1.1rem;
+        padding-bottom: 5px;
+    }
+
+    #section3 div > h3 {
+        text-align: center;
+        font-size: 2.9rem;
+        color: white;
+        margin-bottom: 0.2rem;
+    }
+
+    #section3 div > p {
+        margin: 25px auto;
+        width: 100%;
+        text-align: left;
+        color: lightgray;
+        padding-top: 2.5rem;
+        font-size: 1rem;
+        padding-right: 0;
+        padding-left: 0;
+    }
 
 }
 
