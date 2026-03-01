@@ -22,6 +22,7 @@ header {
     justify-content: space-around;
     align-items: center;
     z-index: 1000;
+    position: fixed;
 }
 
 #logo {
@@ -111,7 +112,6 @@ main {
 }
 
 #section2 {
-    padding-right: 10rem;
     margin-top: 14rem;
 }
 
@@ -123,35 +123,16 @@ main {
 }
 
 .section-img1 {
-    max-width: 100%;
+    background: linear-gradient(135deg, #0f0f0f, #0a0a0a, #111111);
     border: 1px solid rgba(122, 122, 122, 0.288);
     border-radius: 15px;
 }
 
-.section-span1 {
-    display: flex;
-    width: 20rem;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.section-span1 > span {
-    font-size: 1.5rem;
-    padding-bottom: 10px;
-    color: #ff0051;
-}
-
-#section2 > div > .section-img1 {
-    justify-content: center;
-    align-items: center;
-    transition: padding 0.2s ease;
-}
-
-#section2 > div > .section-img1 > .section-span1 > h2 {
+#section2 > div > .section-img1 > .section-atendimento1 > h2 {
     font-weight: 100;
     text-transform: uppercase;
     font-size: 1rem;
-    text-align: left;
+    text-align: center;
     padding: 20px;
 }
 
@@ -172,14 +153,13 @@ main {
 
 .section2-action1 > a, .section2-action2 > a, .section2-action3 > a {
     text-align: center;
-    color: #ff0051;
-    border: 1px solid #ff0051;
+    color: white;
+    border: 1px solid #FF0051;
     font-weight: 800;
     text-decoration: none;
     width: 50%;
     padding: 10px 15px;
     margin: 15px auto;
-    border-radius: 5px;
     transition: padding 0.3s ease-out, background-color 0.4s ease;
 }
 
@@ -189,21 +169,21 @@ main {
 }
 
 #section3 {
-    margin-top: 14rem;
-    padding: 3rem;
+    margin: 0 auto;
+    margin: 14rem auto;
     display: flex;
     justify-items: center;
     justify-content: space-around;
-    gap: 110px;
+    gap: 40px;
 }
 
-#section3 > #section3-conteudo {
-    width: 85%;
+#section3 > div#section3-conteudo {
+    margin: 0 auto;
 }
 
 #section3 > div > video {
+    width: 100%;
     border-radius: 10px;
-    max-width: 100%;
 }
 
 #section3 div > h2 {
@@ -219,11 +199,15 @@ main {
     margin-bottom: 0.2rem;
 }
 
+div#section3-centralizar {
+    width: 80%;
+    margin: 0 auto;
+}
+
 #section3 div > p {
+    padding: 30px;
     text-align: left;
-    padding-left: 5rem;
     color: lightgray;
-    padding-top: 2.5rem;
     font-size: 1rem;
 }
 
@@ -245,20 +229,20 @@ main {
     margin-top: 5rem;
     margin-bottom: 5rem;
     display: flex;
-    justify-content: center;
     align-items: center;
     border: 1px solid rgba(119, 119, 119, 0.267);
     border-radius: 25px;
-    gap: 150px;
+    gap: 100px;
 }
 
 .section4-conteudo {
+    padding: 50px;
+    margin: 0 auto;
     width: 100%;
-    padding-left: 3.5rem;
 }
 
 .paragrafo-maior {
-    width: 27rem;
+    width: 500px;
 }
 
 .section4-conteudo > p {
@@ -277,7 +261,6 @@ main {
     padding: 10px 15px;
     color: #ffaa00;
     border: 1px solid #ffaa00;
-    border-radius: 5px;
     transition: padding 0.3s ease-out, background-color 0.4s ease;
 }
 
@@ -641,6 +624,7 @@ div#sec7-plano12meses > p {
         width: 87%;
         height: 125px;
         flex-direction: column;
+        position: inherit;
     }
 
     #logo {
@@ -681,13 +665,11 @@ div#sec7-plano12meses > p {
     }
 
     #section1 {
-        display: flex;
         flex-direction: column;
         gap: 120px;
     }
 
     #section1 > div > h1 {
-        margin: 0 auto;
         text-align: center;
         font-size: 2rem;
         max-width: 100%;
@@ -697,9 +679,7 @@ div#sec7-plano12meses > p {
         margin: 0 auto;
         text-align: center;
         max-width: 85%;
-        color: lightgray;
         font-size: 1rem;
-        padding-bottom: 30px;
         padding-top: 15px;
     }
 
@@ -743,7 +723,8 @@ div#sec7-plano12meses > p {
     }
 
     #section2-display {
-        min-width: 350px;
+        margin: 0 auto;
+        width: 90%;
         flex-direction: column;
         gap: 100px;
     }
@@ -753,8 +734,7 @@ div#sec7-plano12meses > p {
     }
 
     #section3 {
-        margin: 250px auto;
-        padding: 3rem;
+        padding: 10px;
         flex-direction: column;
     }
 
@@ -780,7 +760,7 @@ div#sec7-plano12meses > p {
 
     #section3 div > h3 {
         text-align: center;
-        font-size: 3rem;
+        font-size: 2.6rem;
         color: white;
         margin-bottom: 0.2rem;
     }
@@ -794,23 +774,11 @@ div#sec7-plano12meses > p {
         padding-left: 0;
     }
 
-    #section4 {
-        margin: 0 auto;
-    }
-
-    #section4 > div > h3 {
-        width: 100%;
-        margin: 0 auto;
-        font-size: 2.1rem;
-    }
-
     .section4-box {
+        padding: 0;
         align-items: center;
         flex-direction: column;
-        border: 1px solid rgba(119, 119, 119, 0.267);
-        border-radius: 25px;
-        gap: 150px;
-        margin: 150px auto;
+        gap: 0;
     }
 
     .section4-conteudo {
@@ -819,7 +787,7 @@ div#sec7-plano12meses > p {
     }
 
     .paragrafo-maior {
-        font-size: 1.5rem;
+        font-size: 1.15rem;
         width: 100%;
         margin: 0;
     }
@@ -828,14 +796,26 @@ div#sec7-plano12meses > p {
         color: #ffaa00;
     }
 
-    #style-blue {
-        font-size: 12px;
-
+    #section4 > div > h3 {
+        width: 100%;
+        font-size: 1.75rem;
     }
 
-    #style-blue:hover {
-        color: white;
-        background-color: #0080ff;
+    .section4-box > div#centralizar-img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .section4-box > div > img {
+        border-radius: 25px;
+        width: 90%;
+    }
+
+    .section4-conteudo > a {
+        margin: 15px auto;
+        width: 80%;
     }
 
 }
