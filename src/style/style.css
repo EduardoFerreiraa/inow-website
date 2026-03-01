@@ -865,6 +865,35 @@ nav > ul > li a:hover {
         width: 80%;
     }
 
+    #section5 > h3 {
+        width: 90%;
+        font-size: 1.75rem;
+    }
+
+    #container-grid {
+        max-width: 100%;
+        row-gap: 7px;
+        column-gap: 7px;
+    }
+
+    .item-destaque2 {
+        width: 78%;
+        height: 50%;
+    }
+
+    .item-destaque3 {
+        width: 78%;
+        height: 50%;
+    }
+
+    .item-destaque2 > p {
+        display: none;
+    }
+
+    .item-destaque3 > p {
+        display: none;
+    }
+
 }
 
 /* TIPOGRAFIA */
