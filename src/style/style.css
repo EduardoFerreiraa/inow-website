@@ -894,6 +894,39 @@ nav > ul > li a:hover {
         display: none;
     }
 
+    #section6-container {
+        flex-direction: column;
+    }
+
+    #section6-titulo {
+        width: 70%;
+    }
+
+    #section6-titulo > h4 {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 40px;
+        font-size: 2rem;
+    }
+
+    #section6-titulo > p {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    #section6-estatisticas {
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+    }
+
+    #section6-estatisticas > div {
+        margin: 17px 0;
+    }
+
+    
+
 }
 
 /* TIPOGRAFIA */
