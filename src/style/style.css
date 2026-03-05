@@ -27,6 +27,8 @@ header {
 
 #logo {
     font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bolder;
     color: white;
     text-decoration: none;
     color: #ff0051;
